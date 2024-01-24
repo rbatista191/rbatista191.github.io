@@ -19,9 +19,9 @@ body {
     padding: 5px;
 }
 #mona-lisa {
-    max-width: 100%;  /* ensures image width doesn't exceed viewport width */
-    max-height: 80vh; /* sets image height to 80% of viewport height */
-    object-fit: contain; /* ensures aspect ratio is maintained without cropping */
+    max-width: 90%;  /* Adjust the percentage as needed */
+    max-height: 70vh; /* Adjust the height as needed */
+    object-fit: contain;
 }
 #label {
     font-size: 3em; /* makes the text three times larger than the normal text size */
