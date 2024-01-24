@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+#container {
+    text-align: center;
+    color: white;
+}
+#speech-bubble {
+    position: absolute;
+    margin-left: -50px; /* Adjust based on actual image dimensions */
+    margin-top: -50px; /* Adjust based on actual image dimensions */
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
+}
