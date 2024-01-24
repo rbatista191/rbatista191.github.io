@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function updateInteraction() {
         var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 
-        if (width <= 768) { // Threshold for smaller screens
+        if (width <= 1000) { // Threshold for smaller screens
             label.innerHTML = "Tap Mona";
             monaLisa.ontouchstart = function() {
                 monaLisa.src = 'mona-lisa-1.jpeg'; // Change image on touch start

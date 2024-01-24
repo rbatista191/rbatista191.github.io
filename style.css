@@ -19,8 +19,9 @@ body {
     padding: 5px;
 }
 #mona-lisa {
-    max-width: 90%;  /* Adjust the percentage as needed */
-    max-height: 70vh; /* Adjust the height as needed */
+    width: 80vw;  /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    max-height: 70vh; /* Adjust the max height as needed */
     object-fit: contain;
 }
 #label {
