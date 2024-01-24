@@ -34,10 +34,8 @@ body {
     body {
         padding-top: 10px; /* Adjust this value as needed */
     }
-
-    /* If there's a specific container or element you want to adjust, add it here. For example: */
     #container {
-        padding-top: 10px; /* Adjust this value as needed */
+        padding-top: 2px; /* Adjust this value as needed */
     }
     #label {
         font-size: 8em; /* larger font size for smaller screens */
