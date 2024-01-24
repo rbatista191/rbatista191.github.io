@@ -30,3 +30,16 @@ body {
     text-align: center;
     margin-top: 20px; /* adds space above the label */
 }
+@media only screen and (max-width: 1000px) {
+    body {
+        padding-top: 10px; /* Adjust this value as needed */
+    }
+
+    /* If there's a specific container or element you want to adjust, add it here. For example: */
+    #container {
+        padding-top: 10px; /* Adjust this value as needed */
+    }
+    #label {
+        font-size: 8em; /* larger font size for smaller screens */
+    }
+}
