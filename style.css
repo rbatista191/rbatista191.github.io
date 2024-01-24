@@ -18,3 +18,14 @@ body {
     border-radius: 10px;
     padding: 5px;
 }
+#mona-lisa {
+    max-width: 100%;  /* ensures image width doesn't exceed viewport width */
+    max-height: 80vh; /* sets image height to 80% of viewport height */
+    object-fit: contain; /* ensures aspect ratio is maintained without cropping */
+}
+#label {
+    font-size: 3em; /* makes the text three times larger than the normal text size */
+    color: white; /* example color - adjust as needed */
+    text-align: center;
+    margin-top: 20px; /* adds space above the label */
+}
